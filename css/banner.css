@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Contrail One', cursive;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  border: 1px solid navy;
+  background-color: #2b3951;
+  padding: 3em 0 0 0;
+  margin: 0;
+}
+
+
+.body {
+  width: 320px;
+  padding: 0 0 0 2.5em;
+  margin: 0;
+  position: relative;
+}
+
+.brain {
+  width: 46px;
+  position: absolute;
+}
+
+.head-left {
+  width: 125px;
+  position: absolute;
+  margin: 0;
+}
+
+.head-right {
+  width: 125px;
+  position: absolute;
+  transition: all 200ms linear;
+  margin: 0 ;
+}
+
+.head-right:hover {
+
+}
+
+h1 {
+  left: 0;
+  bottom: 1em;
+  /* color: #fff; */
+  background-color: #1a2230;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+  margin: 0;
+}
+
+header:hover h1 {
+  bottom: 1em;
+}
