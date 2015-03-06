@@ -8,10 +8,17 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
-  border: 1px solid navy;
   background-color: #2b3951;
-  padding: 3em 0 0 0;
+  padding: 3.5em 0 0 0;
+  margin: 0;
+}
+
+div {
   margin: 0;
 }
 
@@ -21,17 +28,23 @@ header {
   padding: 0 0 0 2.5em;
   margin: 0;
   position: relative;
+  left: 1.35em;
 }
 
 .brain {
   width: 46px;
   position: absolute;
+  right: 11.05em;
+  top: 2em;
 }
 
 .head-left {
   width: 125px;
   position: absolute;
   margin: 0;
+  top: -0.5em;
+  left: 4.95em;
+  transition: all 200ms linear;
 }
 
 .head-right {
@@ -39,10 +52,16 @@ header {
   position: absolute;
   transition: all 200ms linear;
   margin: 0 ;
+  top: -0.5em;
+  right: 4.75em;
 }
 
 .head-right:hover {
+  right: 2em;
+}
 
+.head-left:hover {
+    left: 2em;
 }
 
 h1 {
@@ -55,8 +74,4 @@ h1 {
   width: 100%;
   padding: 1em;
   margin: 0;
-}
-
-header:hover h1 {
-  bottom: 1em;
 }
